@@ -1,0 +1,16 @@
+GESTOR FINANCAS - COMPILAR SEM ANDROID STUDIO
+
+O ZIP GestorFinancas.zip contém o projeto original. O arquivo .github/workflows/build-apk.yml configura a compilação automática no GitHub Actions.
+
+PASSOS:
+1. No GitHub, crie um repositório privado chamado GestorFinancas.
+2. Envie GestorFinancas.zip para a raiz do repositório (não extraia esse ZIP).
+3. No repositório, crie o arquivo .github/workflows/build-apk.yml e copie integralmente o conteúdo do arquivo com esse nome que acompanha este pacote.
+4. Abra a aba Actions. Se necessário, habilite workflows. Escolha “Compilar APK Android” e clique “Run workflow”.
+5. Aguarde a execução. Se ficar verde, abra a execução e baixe o artefato “GestorFinancas-APK”.
+6. Extraia o artefato baixado; dentro estará app-debug.apk. Transfira para o Android e abra para instalar.
+
+OBSERVAÇÕES:
+- A compilação ainda não foi executada/testada; se falhar, abra a execução em Actions e consulte o primeiro erro vermelho.
+- O APK debug é para instalação manual, não é publicado na Play Store.
+- Mantenha o repositório privado porque o código pode conter detalhes do seu aplicativo.
